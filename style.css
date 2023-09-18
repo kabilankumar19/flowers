@@ -1,0 +1,307 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.im{
+  height:40px;
+  width: 60px;
+}
+
+/* Style for the navigation container */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("./images/favcion.jpg");
+  background-size: 1600px;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Style for left-side navigation items */
+.left-nav {
+  flex: 1;
+  text-align: left;
+}
+
+/* Style for right-side navigation items */
+.right-nav {
+  flex: 1;
+  text-align: right;
+}
+
+#hov:hover{
+  
+  color: aqua;
+}
+
+/* Style for individual navigation links */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+li {
+  display: inline;
+
+}
+/* Style the dropdown menu */
+.dropdown-menu {
+
+  display: none;
+  position: absolute;
+  margin-left: 420px;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-menu li a {
+    padding: 10px 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  padding-top: 4px;
+  padding-bottom: 4px;
+    background-color: white;
+}
+
+
+img.des_1{
+  border-radius: 20px;
+  display: block;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 70%;
+
+  padding-top: 25px;
+
+}
+
+/* for box like*/
+div.gallery {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  border-radius: 15px;
+}
+/* when hover the image it scale 1.1*/
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.1); 
+}
+
+
+div.desc {
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+}
+/* resize the each imag efrom 480px to 300px */
+#resize{
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+/* for nice look the margin left is given as 70px */
+.re-margin{
+  margin-left: 80px;
+}
+
+
+/* clearing the floating */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.best{
+  padding-left: 10px;
+}
+/* for review color   */
+#review{
+  color: white;
+  background-color: darkgreen;
+}
+
+/* for changing anchor styles*/
+#re-color{
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+
+
+div.gallery-1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin: 45px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 605px;
+  border-radius: 15px;
+}
+/* when hover the image it scale 1.1*/
+div.gallery-1:hover {
+  border: 1px solid #777;
+  transform: scale(1.1); 
+}
+
+#resize-1{
+  width: 605px;
+  height: 255px;
+  border-radius: 15px;
+}
+
+/* for special flower back round display */
+div.special{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: antiquewhite;
+  height: 492px;
+
+}
+
+
+/* for special flowerdisplay */
+div.gallery-2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 270px;
+  border-top-right-radius: 135px;
+  border-top-left-radius: 135px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/* when hover the image it scale 1.1*/
+div.gallery-2:hover {
+  border: 1px solid #777;
+  transform: scale(1.1); 
+}
+
+#resize-2{
+  width: 270px;
+  height: 270px;
+  border-radius: 15px;
+}
+
+div.gallery-3 {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  float: left;
+  width: 50px;
+}
+
+div.special-1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 120px;
+}
+ 
+div.special-1 :hover{
+  transform:scale(1.05)
+}
+
+/* for types of flowers  */
+div.gallery-4 {
+  margin-left: 70px;
+ 
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  border-radius: 15px;
+}
+/* when hover the image it scale 1.1*/
+div.gallery-4:hover {
+  border: 1px solid #777;
+  transform: scale(1.1); 
+}
+
+
+#resize-3{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+div.desc-1 {
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+#contact-margin{
+  margin-top: 140px;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 300px;
+}
+
+
+
+/* for seperate files   */
+
+div.gallery_p-1 {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 600px;
+  border-radius: 15px;
+}
+
+#resize_p-1{
+  width: 600px;
+  height: 600px;
+  border-radius: 15px;
+}
+
+#gold{
+  color: gold;
+}
+
+
+/* for changing anchor styles*/
+#re-color{
+  text-decoration: none;
+  color: lightseagreen;
+}
